@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "slide_size": {"width": 13.33, "height": 7.5},
+    "image_dir": "images"
+  },
+  "theme": {
+    "background": "FFFFFF",
+    "primary":    "6D2E46",
+    "secondary":  "A26769",
+    "accent":     "ECE2D0",
+    "text_dark":  "2B2B2B",
+    "text_muted": "7A6A6A",
+    "header_font": "Georgia",
+    "body_font":   "Calibri"
+  },
+  "slides": [
+    {
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0, "y": 0, "w": 4.6, "h": 7.5,
+          "fill": "6D2E46"
+        },
+        {
+          "type": "image",
+          "file": "coffee.jpg",
+          "x": 0.5, "y": 1.3, "w": 3.6, "h": 2.7,
+          "rounded": true
+        },
+        {
+          "type": "text",
+          "x": 0.5, "y": 0.5, "w": 3.6, "h": 0.6,
+          "content": "BEAN ORIGIN  ·  2026",
+          "font": "Calibri", "size": 11, "bold": true,
+          "color": "ECE2D0", "letter_spacing": 4
+        },
+        {
+          "type": "text",
+          "x": 0.5, "y": 4.2, "w": 3.6, "h": 1.1,
+          "content": "豆源自然",
+          "font": "Georgia", "size": 40, "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 0.5, "y": 5.3, "w": 3.6, "h": 1.6,
+          "content": "源自单一产区的精品咖啡豆,经由完整可追溯的处理流程,呈现层次分明的风味。",
+          "font": "Calibri", "size": 13,
+          "color": "ECE2D0", "line_spacing": 1.4
+        },
+        {
+          "type": "text",
+          "x": 5.0, "y": 0.6, "w": 7.8, "h": 0.5,
+          "content": "从产地到杯中 · 三步处理流程",
+          "font": "Georgia", "size": 22, "bold": true,
+          "color": "2B2B2B"
+        },
+        {
+          "type": "text",
+          "x": 5.0, "y": 1.15, "w": 7.8, "h": 0.4,
+          "content": "Origin · Process · Roast",
+          "font": "Calibri", "size": 12, "italic": true,
+          "color": "A26769"
+        },
+        {
+          "type": "flow_node",
+          "id": "n1",
+          "x": 5.0, "y": 2.1, "w": 2.3, "h": 1.4,
+          "shape": "rounded_rect",
+          "fill": "ECE2D0", "border": "6D2E46",
+          "title": "01 · 产地",
+          "title_color": "6D2E46",
+          "body": "海拔 1600m 单一庄园采摘"
+        },
+        {
+          "type": "flow_arrow",
+          "from": [7.3, 2.8], "to": [7.85, 2.8],
+          "color": "A26769"
+        },
+        {
+          "type": "flow_node",
+          "id": "n2",
+          "x": 7.85, "y": 2.1, "w": 2.3, "h": 1.4,
+          "shape": "rounded_rect",
+          "fill": "A26769", "border": "6D2E46",
+          "title": "02 · 处理",
+          "title_color": "FFFFFF",
+          "body": "水洗发酵 72 小时",
+          "body_color": "FFFFFF"
+        },
+        {
+          "type": "flow_arrow",
+          "from": [10.15, 2.8], "to": [10.7, 2.8],
+          "color": "A26769"
+        },
+        {
+          "type": "flow_node",
+          "id": "n3",
+          "x": 10.7, "y": 2.1, "w": 2.3, "h": 1.4,
+          "shape": "rounded_rect",
+          "fill": "6D2E46", "border": "6D2E46",
+          "title": "03 · 烘焙",
+          "title_color": "ECE2D0",
+          "body": "中度烘焙 · 12 分钟",
+          "body_color": "FFFFFF"
+        },
+        {
+          "type": "image",
+          "file": "beans.jpg",
+          "x": 5.0, "y": 4.0, "w": 3.7, "h": 2.9,
+          "rounded": true
+        },
+        {
+          "type": "stat",
+          "x": 9.0, "y": 4.0, "w": 4.0, "h": 1.3,
+          "number": "92",
+          "unit": "/100",
+          "label": "SCA 风味评分"
+        },
+        {
+          "type": "stat",
+          "x": 9.0, "y": 5.5, "w": 4.0, "h": 1.3,
+          "number": "100%",
+          "unit": "",
+          "label": "可追溯单一产区"
+        }
+      ]
+    }
+  ]
+}
